@@ -1,0 +1,68 @@
+[
+  {
+    "date": "2025-05-16T13:00:00",
+    "location": "Milwaukee, WI, USA",
+    "venue": "Eagles Ballroom",
+    "event": "Milwaukee Metalfest"
+  },
+  {
+    "date": "2025-09-18T17:00:00",
+    "location": "Louisville, KY, USA",
+    "venue": "Highland Festival Grounds",
+    "event": "Louder Than Life Festival"
+  },
+  {
+    "date": "2026-01-16T19:00:00",
+    "location": "London, UK",
+    "venue": "O2 Academy Brixton",
+    "event": "Grizzly Winter Tour"
+  },
+  {
+    "date": "2026-01-17T19:00:00",
+    "location": "Manchester, UK",
+    "venue": "O2 Victoria Warehouse",
+    "event": "Grizzly Winter Tour"
+  },
+  {
+    "date": "2026-01-18T19:00:00",
+    "location": "Birmingham, UK",
+    "venue": "O2 Academy Birmingham",
+    "event": "Grizzly Winter Tour"
+  },
+  {
+    "date": "2026-01-24T19:00:00",
+    "location": "Berlin, Germany",
+    "venue": "Velodrom",
+    "event": "Grizzly Winter Tour"
+  },
+  {
+    "date": "2026-01-25T19:00:00",
+    "location": "Hamburg, Germany",
+    "venue": "Sporthalle",
+    "event": "Grizzly Winter Tour"
+  },
+  {
+    "date": "2026-02-02T19:00:00",
+    "location": "Frankfurt, Germany",
+    "venue": "Jahrhunderthalle",
+    "event": "Grizzly Winter Tour"
+  },
+  {
+    "date": "2026-02-06T19:00:00",
+    "location": "Munich, Germany",
+    "venue": "Zenith",
+    "event": "Grizzly Winter Tour"
+  },
+  {
+    "date": "2026-02-07T19:00:00",
+    "location": "Leipzig, Germany",
+    "venue": "Haus Auensee",
+    "event": "Grizzly Winter Tour"
+  },
+  {
+    "date": "2026-02-08T19:00:00",
+    "location": "Prague, Czechia",
+    "venue": "Forum Karlín",
+    "event": "Grizzly Winter Tour"
+  }
+]

@@ -1,0 +1,105 @@
+{
+  "categories": [
+    { "id": "cds", "name": "CDs" },
+    { "id": "merch", "name": "Merchandise" }
+  ],
+  "products": [
+    {
+      "id": "1",
+      "name": "The Cleansing (CD)",
+      "description": "The Cleansing is the debut studio album, released in 2007.",
+      "price": "13.99",
+      "category": "cds",
+      "image": "Imagens/Albuns/Suicide_Silence_-_The_Cleansing.jpg"
+    },
+    {
+      "id": "2",
+      "name": "No Time to Bleed (CD)",
+      "description": "No Time to Bleed is the second studio album, released in 2009.",
+      "price": "13.99",
+      "category": "cds",
+      "image": "Imagens/Albuns/No_Time_to_Bleed_high-res.jpg"
+    },
+    {
+      "id": "3",
+      "name": "The Black Crown (CD)",
+      "description": "The Black Crown is the third studio album, released in 2011.",
+      "price": "14.99",
+      "category": "cds",
+      "image": "Imagens/Albuns/SS_The_Black_Crown.jpg"
+    },
+    {
+      "id": "4",
+      "name": "You Can't Stop Me (CD)",
+      "description": "You Can't Stop Me is the fourth studio album, released in 2014.",
+      "price": "15.99",
+      "category": "cds",
+      "image": "Imagens/Albuns/You_Can't_Stop_Me_(Suicide_Silence).jpg"
+    },
+    {
+      "id": "5",
+      "name": "Suicide Silence (CD)",
+      "description": "Suicide Silence is the fifth studio album, released in 2017.",
+      "price": "15.99",
+      "category": "cds",
+      "image": "Imagens/Albuns/SuicideSilence2017.jpg"
+    },
+    {
+      "id": "6",
+      "name": "Become the Hunter (CD)",
+      "description": "Become the Hunter is the sixth studio album, released in 2020.",
+      "price": "15.99",
+      "category": "cds",
+      "image": "Imagens/Albuns/Become_the_Hunter.jpg"
+    },
+    {
+      "id": "7",
+      "name": "Remember... You Must Die (CD)",
+      "description": "Latest album with intense themes and heavy sound, released in 2023.",
+      "price": "16.49",
+      "category": "cds",
+      "image": "Imagens/Albuns/SuicideSilenceRYMD.jpg"
+    },
+
+    {
+      "id": "8",
+      "name": "T-Shirt Green Logo",
+      "description": "Unisex t-shirt with green band logo.",
+      "price": "20.90",
+      "category": "merch",
+      "image": "Imagens/Merch/137762_aw002.jpg"
+    },
+    {
+      "id": "9",
+      "name": "T-Shirt Where is your God?",
+      "description": "T-shirt with art from the track 'Where is your God?'.",
+      "price": "20.90",
+      "category": "merch",
+      "image": "Imagens/Merch/137769_aw014.jpg"
+    },
+    {
+      "id": "10",
+      "name": "T-Shirt Mitch White",
+      "description": "White t-shirt with Mitch Lucker's portrait.",
+      "price": "21.90",
+      "category": "merch",
+      "image": "Imagens/Merch/61KM1CAADtL._AC_UY1000_.jpg"
+    },
+    {
+      "id": "11",
+      "name": "Hoodie Pull the trigger",
+      "description": "Black Hoodie with the lyrics 'Pull the trigger'.",
+      "price": "29.90",
+      "category": "merch",
+      "image": "Imagens/Merch/suicidesilence_pullthetrigger_tops_hoodie_hoosuitri2_art10-035139_2500000214455_30843-324_nomodel_whitebackground_back.webp"
+    },
+    {
+      "id": "12",
+      "name": "Dan Kenny",
+      "description": "Dan - Bass Action Figure.",
+      "price": "10.90",
+      "category": "merch",
+      "image": "Imagens/Merch/action-figure-dan.jpg"
+    }
+  ]
+}

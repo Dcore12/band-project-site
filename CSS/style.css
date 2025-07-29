@@ -1,0 +1,1249 @@
+/* Dark/Deathcore Theme Base */
+body {
+  background-color: #000;
+  color: #fff;
+  font-family: 'Segoe UI', sans-serif;
+}
+h1 {
+  color: white;
+  text-align: center;
+  font-weight: bold;
+}
+.logo_sub {
+  display: block;
+  margin: auto;
+  width: 50%;
+}
+hr {
+  color: white;
+  height: 10px;
+}
+.top-links {
+  font-family: 'Orbitron', sans-serif;
+  font-size: 14px;
+  color: #dc3545;
+  padding: 10px 20px;
+}
+
+.user-info {
+  font-weight: bold;
+  margin-right: 10px;
+  color: #dc3545;
+}
+
+.admin-badge {
+  color: #fff;
+  font-style: italic;
+  margin-left: 5px;
+}
+
+.logout-btn,
+.login-btn,
+.cart-link {
+  margin-left: 10px;
+  color: #fff;
+  text-decoration: none;
+}
+
+.logout-btn:hover,
+.login-btn:hover,
+.cart-link:hover {
+  text-decoration: underline;
+}
+
+.cart-link {
+  color: #fff;
+  margin-left: 15px;
+}
+
+#cart-count {
+  background-color: #dc3545;
+  color: white;
+  border-radius: 50%;
+  padding: 0 5px;
+  font-size: 0.8rem;
+  margin-left: 3px;
+}
+
+/* === PLAYER DE ÁUDIO DEATHCORE === */
+audio {
+  width: 300px;
+  background: linear-gradient(to right, #1a1a1a, #2a2a2a);
+  border-radius: 10px 0 10px 0; /* Bordas angulares */
+  border: 2px solid #dc3545;
+  box-shadow: 0 0 10px rgba(220, 53, 69, 0.7), inset 0 0 15px rgba(0, 0, 0, 0.9);
+  filter: drop-shadow(0 0 5px #dc3545);
+  padding: 5px;
+}
+#audio {
+  text-align: center;
+}
+
+/* Estilizando os controles do player */
+audio::-webkit-media-controls-panel {
+  background: linear-gradient(to bottom, #222, #111);
+  border-radius: 8px 0 8px 0;
+}
+
+audio::-webkit-media-controls-play-button,
+audio::-webkit-media-controls-mute-button {
+  filter: invert(0.8) sepia(1) hue-rotate(320deg) saturate(5);
+}
+
+audio::-webkit-media-controls-current-time-display,
+audio::-webkit-media-controls-time-remaining-display {
+  color: #dc3545;
+  font-family: 'Orbitron', sans-serif;
+  text-shadow: 0 0 3px #000;
+}
+
+audio::-webkit-media-controls-timeline {
+  background-color: #333;
+  border-radius: 5px;
+  margin: 0 10px;
+}
+
+audio::-webkit-media-controls-volume-slider {
+  background-color: #333;
+  border-radius: 5px;
+}
+
+/* === LINKS PERSONALIZADOS === */
+a {
+  color: rgb(255, 255, 255);
+}
+a:hover {
+  color: #dc3545 !important;
+}
+/* === MENU DROPDOWN PERSONALIZADO === */
+.dropdown-menu a.dropdown-item {
+  background-color: transparent;
+  color: white;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.dropdown-menu a.dropdown-item:active {
+  background-color: rgba(220, 53, 69, 0.25);
+  color: white;
+}
+/* === COLUNAS E GRUPOS DE CARDS === */
+.col {
+  max-width: 350px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.card-group {
+  display: flex;
+  flex-flow: row wrap;
+  flex-direction: column;
+}
+/* === CARDS DE PRODUTOS === */
+.card-title {
+  font-weight: bold;
+  text-align: center;
+}
+.card-img-top {
+  width: auto;
+  height: 200px;
+}
+.card-text {
+  font-weight: bold;
+  text-align: center;
+}
+.btn_merch {
+  text-align: center;
+}
+/* === IMAGENS DE PRODUTO (merch) === */
+.imgtb {
+  border: solid 2px rgb(172, 52, 52);
+  border-radius: 10px;
+  width: 200px;
+  height: 200px;
+}
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+}
+.p-2 {
+  font-size: 20px;
+  font-weight: bold;
+}
+/* === FORMULÁRIOS === */
+.clearfix,
+.form-label {
+  color: rgba(255, 255, 255, 0.9);
+  font-size: 18px;
+}
+.form-label {
+  font-weight: bold;
+}
+/* === FOOTER === */
+.footer {
+  text-align: center;
+}
+footer {
+  color: rgb(172, 52, 52);
+  text-align: center;
+}
+#mail {
+  font-weight: bold;
+  color: rgb(172, 52, 52);
+}
+/* === ELEMENTOS COM FLEX E CENTRADOS === */
+.d-flex.align-items-center {
+  color: white;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+/* === SECÇÃO \"ABOUT US\" === */
+#about .col {
+  font-family: 'Orbitron', sans-serif;
+  color: #f0f0f0;
+  letter-spacing: 0.5px;
+  line-height: 1.8;
+  text-align: justify;
+  background-color: #111;
+  padding: 1.5rem;
+  border: 1px solid rgba(220, 53, 69, 0.3);
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(172, 52, 52, 0.3);
+}
+
+#about em {
+  color: #dc3545;
+  font-style: normal;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+#about strong {
+  color: #ffffff;
+  font-weight: 900;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+/* === IMAGENS DE ABOUT US E CARROSSEL === */
+#aboutus img {
+  max-width: 100%;
+  height: auto;
+}
+.carousel-inner {
+  height: 100%;
+}
+
+.carousel-inner img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+/* === CONTROLOS DO CARROSSEL === */
+.carousel-control-prev,
+.carousel-control-next {
+  top: 50%;
+  transform: translateY(-50%);
+  bottom: auto;
+}
+@media (max-width: 768px) {
+  .carousel-control-prev,
+  .carousel-control-next {
+    width: 10%;
+  }
+}
+.carousel {
+  height: auto;
+  position: relative;
+}
+/* === BLOCO DE BACKGROUND PERSONALIZADO === */
+.bg {
+  border: solid 2px rgba(255, 255, 255, 0.5);
+  border-radius: 10px;
+  padding: 1rem;
+  max-width: 100%;
+  overflow-x: hidden;
+}
+/* === SECÇÃO DISCROGRAFIA - CARROSSEL 3D DE ÁLBUNS === */
+.divbody {
+  height: 600px;
+  margin: 0;
+  display: grid;
+  grid-template-rows: 500px 100px;
+  grid-template-columns: 1fr 30px 30px 30px 30px 30px 30px 30px 1fr;
+  align-items: center;
+  justify-items: center;
+  justify-content: center;
+}
+/* Carrossel principal com perspectiva 3D */
+main#carousel {
+  grid-row: 1 / 2;
+  grid-column: 1 / 10;
+  width: 100vw;
+  height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  transform-style: preserve-3d;
+  perspective: 600px;
+  --items: 7;
+  --middle: 3;
+  --position: 1;
+  pointer-events: none;
+}
+/* Estilo base dos itens (álbuns) */
+.item {
+  border: solid 2px rgb(172, 52, 52);
+  border-radius: 10px;
+}
+/* Cada item posicionado com rotação e deslocamento lateral */
+div.item {
+  position: absolute;
+  width: 300px;
+  height: 500px;
+  background-color: coral;
+  --r: calc(var(--position) - var(--offset));
+  --abs: max(calc(var(--r) * -1), var(--r));
+  transition: all 0.25s linear;
+  transform: rotateY(calc(-10deg * var(--r)))
+    translateX(calc(-300px * var(--r)));
+  z-index: calc((var(--position) - var(--abs)));
+}
+/* Define o offset de cada item individualmente */
+div.item:nth-of-type(1) {
+  --offset: 1;
+  background-color: rgb(61, 59, 59);
+}
+div.item:nth-of-type(2) {
+  --offset: 2;
+  background-color: rgb(61, 59, 59);
+}
+div.item:nth-of-type(3) {
+  --offset: 3;
+  background-color: rgb(61, 59, 59);
+}
+div.item:nth-of-type(4) {
+  --offset: 4;
+  background-color: rgb(61, 59, 59);
+}
+div.item:nth-of-type(5) {
+  --offset: 5;
+  background-color: rgb(61, 59, 59);
+}
+div.item:nth-of-type(6) {
+  --offset: 6;
+  background-color: rgb(61, 59, 59);
+}
+div.item:nth-of-type(7) {
+  --offset: 7;
+  background-color: rgb(61, 59, 59);
+}
+/* Rádios para controlar a posição do carrossel manualmente */
+input:nth-of-type(1) {
+  grid-column: 2 / 3;
+  grid-row: 2 / 3;
+}
+input:nth-of-type(1):checked ~ main#carousel {
+  --position: 1;
+}
+
+input:nth-of-type(2) {
+  grid-column: 3 / 4;
+  grid-row: 2 / 3;
+}
+input:nth-of-type(2):checked ~ main#carousel {
+  --position: 2;
+}
+
+input:nth-of-type(3) {
+  grid-column: 4 /5;
+  grid-row: 2 / 3;
+}
+input:nth-of-type(3):checked ~ main#carousel {
+  --position: 3;
+}
+
+input:nth-of-type(4) {
+  grid-column: 5 / 6;
+  grid-row: 2 / 3;
+}
+input:nth-of-type(4):checked ~ main#carousel {
+  --position: 4;
+}
+
+input:nth-of-type(5) {
+  grid-column: 6 / 7;
+  grid-row: 2 / 3;
+}
+input:nth-of-type(5):checked ~ main#carousel {
+  --position: 5;
+}
+input:nth-of-type(6) {
+  grid-column: 7 / 8;
+  grid-row: 2 / 3;
+}
+input:nth-of-type(6):checked ~ main#carousel {
+  --position: 6;
+}
+input:nth-of-type(7) {
+  grid-column: 8 / 9;
+  grid-row: 2 / 3;
+}
+input:nth-of-type(7):checked ~ main#carousel {
+  --position: 7;
+}
+/* Estilo de texto do carrossel de álbuns */
+.parag_alb {
+  text-align: center;
+  color: white;
+  font-size: 24px !important;
+  font-weight: bold;
+  padding-top: 10px;
+}
+.songs {
+  text-align: center;
+  color: #f5f5f5;
+  font-size: 14px !important;
+  padding: 5px 1px 1px 1px;
+}
+#albuns {
+  text-align: center;
+}
+.img_carousel {
+  padding: 20px;
+  border-radius: 40px;
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+/* Botão flutuante (voltar ao topo) */
+#myBtn {
+  position: fixed;
+  bottom: 10px;
+  right: 20px;
+  padding: 0 20px 0 20px;
+  display: inline-flex;
+  border-radius: 0 10px 0 10px;
+}
+/* Rádios estilizados com cor personalizada */
+input[type='radio'] {
+  accent-color: #dc3545;
+}
+/* === SECÇÃO MEMBROS - CARROSSEL HORIZONTAL PERSONALIZADO === */
+.carousel {
+  position: relative;
+  height: auto;
+}
+
+.carousel-inner {
+  min-height: 100%;
+}
+
+.carousel-item {
+  transition: transform 0.6s ease, opacity 0.6s ease;
+  backface-visibility: hidden;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+  top: 50%;
+  transform: translateY(-50%);
+  bottom: auto;
+}
+
+@media (max-width: 768px) {
+  .carousel-control-prev,
+  .carousel-control-next {
+    width: 10%;
+  }
+}
+
+.card {
+  width: 220px;
+  flex: 0 0 auto;
+  box-shadow: 0 0 10px rgba(255, 0, 0, 0.2);
+  cursor: pointer;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border: 2px solid rgba(255, 0, 0, 0.2);
+  border-radius: 10px;
+  overflow: hidden;
+  height: 100%;
+}
+.card:hover {
+  transform: scale(1.03);
+  box-shadow: 0 0 20px rgba(255, 0, 0, 0.4);
+}
+
+.card-body {
+  background-color: #1c1c1c;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  .card-img-top {
+    height: 250px;
+  }
+}
+
+/* === DEATHCORE TIMELINE - ALTERNATIVA TOURS === */
+.timeline-container {
+  position: relative;
+  margin: 2rem 0;
+  padding-left: 30px;
+  border-left: 4px solid #dc3545;
+}
+
+.timeline-event {
+  position: relative;
+  margin-bottom: 2rem;
+  padding-left: 2rem;
+  color: white;
+}
+
+.timeline-icon {
+  position: absolute;
+  left: -17px;
+  top: 0;
+  background-color: #dc3545;
+  color: black;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 30px;
+  font-size: 16px;
+  border: 2px solid white;
+  box-shadow: 0 0 10px rgba(220, 53, 69, 0.8);
+}
+
+.timeline-content h4 {
+  font-family: 'Anton', sans-serif;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  margin-bottom: 0.5rem;
+}
+
+.timeline-content p {
+  font-family: 'Staatliches', sans-serif;
+  font-size: 1.1rem;
+  margin-bottom: 0.3rem;
+}
+
+.fade-in {
+  opacity: 0;
+  transform: translateY(30px);
+  animation: fadeInUp 1s ease forwards;
+}
+
+@keyframes fadeInUp {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.scream-button:active {
+  animation: shake 0.4s ease-in-out;
+  transform: scale(1.05);
+}
+
+@keyframes shake {
+  0% {
+    transform: translateX(0px) rotate(0deg);
+  }
+  20% {
+    transform: translateX(-4px) rotate(-1deg);
+  }
+  40% {
+    transform: translateX(4px) rotate(1deg);
+  }
+  60% {
+    transform: translateX(-2px) rotate(-1deg);
+  }
+  80% {
+    transform: translateX(2px) rotate(1deg);
+  }
+  100% {
+    transform: translateX(0px) rotate(0deg);
+  }
+}
+
+.countdown {
+  font-family: 'Orbitron', sans-serif;
+  color: #dc3545;
+  font-size: 1.1rem;
+  text-transform: uppercase;
+}
+
+/* Carrossel horizontal personalizado com scroll infinito */
+
+#membrosCarousel {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  transition: transform 0.5s ease;
+}
+
+.card-img-top {
+  height: 280px;
+  object-fit: cover;
+  border-radius: 10px 10px 0 0;
+}
+
+.card-body {
+  background-color: #1c1c1c;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+}
+
+#prev,
+#next {
+  z-index: 10;
+}
+/* Responsividade para o carrossel horizontal */
+@media (max-width: 768px) {
+  #membrosCarousel {
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    justify-content: start;
+  }
+
+  .card {
+    width: 90%;
+    margin: 1rem auto;
+  }
+
+  #prev,
+  #next {
+    display: none;
+  }
+}
+
+/* Estilo DEATHCORE */
+
+h1,
+h2,
+h1#discography,
+h1#tours,
+h1#merch,
+.titulo,
+.carousel h2 {
+  font-family: 'Anton', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: white;
+}
+
+h2.orbitron,
+.orbitron,
+.section-title-alt {
+  font-family: 'Orbitron', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  color: white;
+}
+
+h3,
+h4,
+.fw-light,
+.accordion-button strong,
+.btn_merch button {
+  font-family: 'Teko', sans-serif;
+  letter-spacing: 0.5px;
+}
+
+.card-body,
+.card-text,
+.parag_alb,
+.songs,
+.accordion-body {
+  font-family: 'Staatliches', sans-serif;
+  font-size: 1rem;
+  letter-spacing: 0.3px;
+}
+
+.tour-date,
+.digit-style {
+  font-family: 'Orbitron', sans-serif;
+  font-size: 1rem;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+footer,
+.footer,
+#mail,
+.form-label,
+.form-select,
+.btn-outline-danger,
+.form-control {
+  font-family: 'Teko', sans-serif;
+  font-size: 1.5rem;
+  letter-spacing: 0.5px;
+}
+
+.btn-metal,
+#unsubscribeBtn {
+  font-family: 'Teko', sans-serif;
+  text-transform: uppercase;
+  font-size: 1.2rem;
+  letter-spacing: 1px;
+  padding: 0.6rem 2rem;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(220, 53, 69, 0.5);
+  transition: all 0.3s ease;
+}
+
+.btn-metal:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 15px rgba(220, 53, 69, 0.8);
+}
+#unsubscribeBtn:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 15px rgba(220, 53, 69, 0.8);
+}
+
+.accordion-button {
+  font-family: 'Teko', sans-serif;
+  font-size: 1.2rem;
+  letter-spacing: 1.5px;
+  color: #dc3545;
+  padding-left: 2.5rem;
+}
+
+.accordion-button svg {
+  margin-right: 1rem;
+  flex-shrink: 0;
+}
+
+.accordion-button:not(.collapsed) {
+  background-color: #c10d1f95;
+  color: white;
+}
+
+.accordion-button:focus {
+  box-shadow: none;
+}
+
+/* Estilo base para inputs e textarea */
+.form-control {
+  background-color: #ffffff;
+  color: rgb(0, 0, 0);
+  border: 2px solid rgba(172, 52, 52, 0.7);
+  border-radius: 8px;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.form-control:focus {
+  border-color: #dc3545;
+  box-shadow: 0 0 5px rgba(220, 53, 69, 0.5);
+  background-color: #1a1a1a;
+  color: white;
+}
+
+textarea.form-control {
+  resize: vertical;
+  min-height: 120px;
+}
+#successMessage {
+  border: 2px solid #28a745;
+  background-color: #1e1e1e;
+  color: #28a745;
+  font-family: 'Orbitron', sans-serif;
+  letter-spacing: 1px;
+  border-radius: 8px;
+}
+select,
+.form-select,
+#quantity.form-control {
+  background-color: #1a1a1a;
+  color: white;
+  border: 2px solid #dc3545;
+  border-radius: 8px;
+  font-weight: bold;
+  font-family: 'Orbitron', sans-serif;
+  font-size: 1.2rem;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  background-image: url("data:image/svg+xml;utf8,<svg fill='white' height='20' viewBox='0 0 24 24' width='20' xmlns='http://www.w3.org/2000/svg'><path d='M7 10l5 5 5-5z'/></svg>");
+  background-repeat: no-repeat;
+  background-position: right 1rem center;
+  background-size: 1rem;
+}
+select:hover,
+.form-select:hover {
+  background-color: #dc3545;
+  color: white;
+}
+
+.form-select:focus {
+  background-color: rgba(0, 0, 0, 0.742);
+  color: white;
+  border-color: #dc3545;
+  box-shadow: 0 0 10px rgba(220, 53, 69, 0.5);
+  outline: none;
+}
+.form-select {
+  cursor: pointer;
+}
+
+/* Merchandise Cards */
+#product-list {
+  margin-left: auto;
+  margin-right: auto;
+}
+#product-list .card {
+  width: 100%;
+  max-width: 300px;
+  margin: 0 auto;
+  background-color: rgba(255, 255, 255, 0.08);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  color: white;
+  transition: transform 0.2s ease-in-out;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+}
+
+#product-list .card:hover {
+  transform: translateY(-5px);
+}
+
+#product-list .card-img-top {
+  max-height: 250px;
+  width: 100%;
+  object-fit: contain;
+  background-color: #000;
+}
+
+#product-list .card-title {
+  color: #dc3545;
+}
+
+/* === LIGHTBOX PERSONALIZADO === */
+.lightbox {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.8);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1050;
+}
+
+.lightbox-content {
+  max-height: 90vh;
+  overflow-y: auto;
+  background: #333;
+  padding: 20px;
+  border-radius: 8px;
+  text-align: center;
+  max-width: 600px;
+  position: relative;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+}
+
+.lightbox-content img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 15px;
+  border-radius: 5px;
+}
+#lightbox-title,
+#lightbox-description,
+#lightbox-price {
+  color: black;
+}
+#lightbox-image {
+  max-height: 300px;
+  width: auto;
+  height: auto;
+  margin: 0 auto 15px auto;
+  object-fit: contain;
+}
+/* Botão de fechar */
+.close-btn {
+  position: absolute;
+  top: 10px;
+  right: 20px;
+  font-size: 2em;
+  color: #dc3545;
+  text-decoration: none;
+}
+#product-list .card-body {
+  padding: 1rem;
+  text-align: center;
+}
+
+#product-list .card-title {
+  font-size: 1.25rem;
+  margin-bottom: 0.5rem;
+}
+
+#product-list .card-text {
+  font-size: 1rem;
+  margin-bottom: 1rem;
+}
+
+#product-list .price {
+  color: #dc3545;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+/* === ALERTA DE TOTAL DO CÁLCULO === */
+.alert-total {
+  background-color: white;
+  color: #dc3545;
+  font-weight: bold;
+  text-align: center;
+  border-radius: 8px;
+  border: none;
+  font-size: 1.25rem;
+  animation: pulse 0.4s ease-in-out;
+}
+/* Animação do alerta */
+@keyframes pulse {
+  0% {
+    transform: scale(0.95);
+    opacity: 0.8;
+  }
+  50% {
+    transform: scale(1.03);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 0.9;
+  }
+}
+/* Responsividade do lightbox */
+@media (max-width: 576px) {
+  .lightbox-content {
+    max-width: 90%;
+    padding: 15px;
+  }
+
+  #lightbox-image {
+    max-height: 200px;
+  }
+}
+@media (max-width: 576px) {
+  #product-list .card {
+    max-width: 90%;
+  }
+}
+/* GET TICKET DTA*/
+.timeline-content {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  grid-template-areas:
+    'title button'
+    'date button'
+    'venue button'
+    'countdown button';
+  gap: 0.5rem 2rem;
+  align-items: center;
+}
+
+.timeline-content h4 {
+  grid-area: title;
+}
+.timeline-content p:nth-of-type(1) {
+  grid-area: date;
+}
+.timeline-content p:nth-of-type(2) {
+  grid-area: venue;
+}
+.countdown {
+  grid-area: countdown;
+}
+.getticket {
+  grid-area: button;
+  align-self: center;
+  height: fit-content;
+  border-radius: 10px 0 10px 0;
+}
+.timeline-event {
+  position: relative;
+  padding: 1rem;
+  margin-bottom: 1.5rem;
+  background: rgba(30, 30, 30, 0.7);
+  border-left: 4px solid #dc3545;
+  /* Nova linha à direita */
+  border-right: 3px solid #dc3545; /* Linha mais suave que a esquerda */
+}
+
+/* Manter a responsividade */
+@media (max-width: 768px) {
+  .timeline-event::after {
+    display: none; /* Opcional - remove em mobile */
+  }
+}
+/* Container Principal dos Tours */
+.timeline-container {
+  position: relative;
+  width: auto; /* Aumentei a largura máxima */
+  margin: 0 auto;
+  padding: 0 40px; /* Espaço para as linhas */
+}
+
+/* Linhas Verticais */
+.timeline-container::before,
+.timeline-container::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 4px;
+  background: #dc3545;
+  box-shadow: 0 0 15px rgba(220, 53, 69, 0.8);
+}
+
+.timeline-container::before {
+  left: 0;
+}
+
+.timeline-container::after {
+  right: 0;
+}
+
+/* Evento - Ocupando quase toda a largura */
+.timeline-event {
+  position: relative;
+  padding: 1.5rem 2rem; /* Mais espaço interno */
+  margin-bottom: 2rem;
+  background: rgba(30, 30, 30, 0.8);
+  width: calc(100% - 20px); /* Ocupa quase toda a largura */
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 4px;
+}
+
+/* Ícone do Evento (opcional) */
+.timeline-icon {
+  position: absolute;
+  left: -17px;
+  top: 0;
+  background-color: #dc3545;
+  color: black;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 30px;
+  font-size: 16px;
+  border: 2px solid white;
+  box-shadow: 0 0 10px rgba(220, 53, 69, 0.8);
+  z-index: 1;
+}
+
+/* Conteúdo do Evento */
+.timeline-content {
+  display: grid;
+  grid-template-columns: 1fr auto; /* Texto à esquerda, botão à direita */
+  gap: 1rem;
+  align-items: center;
+}
+/* Garantindo que o botão não altere tamanho */
+.timeline-content .getticket {
+  width: 140px; /* Largura fixa */
+  padding: 0.5rem 0; /* Altura consistente */
+  text-align: center;
+  white-space: nowrap; /* Evita quebra de linha */
+}
+
+/* Texto do evento ocupando o espaço disponível */
+.event-details {
+  grid-column: 1;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+  .timeline-container {
+    padding: 0 15px;
+  }
+
+  .timeline-container::before,
+  .timeline-container::after {
+    width: 3px;
+  }
+}
+.getticket:hover {
+  color: white !important;
+  transform: scale(1.05) !important;
+  box-shadow: 0 0 10px rgba(220, 53, 69, 0.5) !important;
+  transition: all 0.3s ease !important;
+}
+
+/* style.css - Secção Members Suicide Silence */
+
+/* Estilo base para fundo */
+
+/* Título com ícones */
+#members img {
+  margin: 0 10px;
+}
+
+/* Cartões dos membros */
+.member-card {
+  background-color: #000;
+  border: 1px solid #ff0000;
+  color: white;
+  transition: transform 0.3s ease;
+  cursor: pointer;
+  position: relative;
+}
+
+.member-card:hover {
+  transform: scale(1.03);
+}
+
+/* Imagens com greyscale */
+.member-card img {
+  filter: grayscale(100%);
+  transition: filter 0.3s ease;
+}
+
+.member-card:hover img {
+  filter: grayscale(0%);
+}
+
+/* Corpo do card */
+.member-card .card-body {
+  font-family: 'Teko', sans-serif;
+  font-size: 1rem;
+  text-transform: uppercase;
+  padding: 10px;
+  border-top: 1px solid #ff0000;
+}
+
+/* Biografia oculta inicialmente */
+.bio {
+  display: none;
+  font-family: 'Segoe UI', sans-serif;
+  font-size: 0.9rem;
+  color: #ccc;
+  background-color: #111;
+  padding: 10px;
+  border-top: 1px solid #ff0000;
+}
+
+/* Mostrar bio quando ativo */
+.member-card.active .bio {
+  display: block;
+}
+.mitch-link {
+  color: #ff4d4d;
+  text-decoration: none;
+  position: relative;
+  transition: color 0.3s ease;
+}
+
+.mitch-link:hover {
+  color: #fff;
+  text-shadow: 0 0 8px #ff4d4d;
+}
+.popover-mitch {
+  max-width: 250px;
+  padding: 0;
+  border: 1px solid #ff4d4d;
+  background-color: #111;
+  color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px #ff4d4d44;
+}
+
+.popover-mitch .popover-body {
+  padding: 0;
+}
+
+.popover-custom-content {
+  text-align: center;
+  padding: 10px;
+}
+
+.popover-image {
+  max-width: 100%;
+  height: auto;
+  border-radius: 5px;
+  margin-bottom: 8px;
+}
+@media (max-width: 768px) {
+  .card-img-top {
+    height: 250px;
+    object-fit: contain;
+  }
+}
+/* Estilos para a seção "About" */
+.about-band {
+  background-color: #121212; /* Fundo escuro para tema metal */
+  color: #e0e0e0; /* Texto claro */
+}
+
+.band-column {
+  background-color: #1a1a1a;
+  border-radius: 8px;
+  height: 100%;
+  border-left: 3px solid #dc3545; /* Borda vermelha à esquerda */
+}
+
+/* Melhorias de tipografia */
+.about-band p {
+  text-align: justify;
+  line-height: 1.7;
+  margin-bottom: 1rem;
+}
+
+.about-band strong {
+  color: #dc3545; /* Destaque em vermelho */
+  font-weight: 600;
+}
+
+/* Espaçamento responsivo */
+@media (max-width: 768px) {
+  .band-column {
+    margin-bottom: 20px;
+    border-left: none;
+    border-bottom: 3px solid #dc3545; /* Borda vermelha em baixo no mobile */
+  }
+
+  .about-band h1 {
+    font-size: 1.8rem;
+  }
+}
+/* Efeitos de hover e transição */
+.band-column {
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.band-column:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 12px rgba(220, 53, 69, 0.2);
+}
+
+/* Melhoria na legibilidade */
+.about-band p {
+  font-size: 0.95rem;
+}
+
+/* Responsividade aprimorada */
+@media (max-width: 576px) {
+  .band-column {
+    padding: 1.5rem !important;
+  }
+}
